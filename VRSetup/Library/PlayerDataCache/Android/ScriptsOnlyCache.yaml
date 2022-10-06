@@ -14,9 +14,12 @@ ScriptsOnlyBuild:
     Unity.XR.Interaction.Toolkit.Editor.dll:
     - UnityEditor.XR.Interaction.Toolkit.XRInteractionEditorSettings
     Unity.XR.Interaction.Toolkit.dll:
+    - UnityEngine.XR.Interaction.Toolkit.ActionBasedContinuousMoveProvider
     - UnityEngine.XR.Interaction.Toolkit.ActionBasedController
+    - UnityEngine.XR.Interaction.Toolkit.ActionBasedSnapTurnProvider
     - UnityEngine.XR.Interaction.Toolkit.Inputs.InputActionManager
     - UnityEngine.XR.Interaction.Toolkit.InteractionLayerSettings
+    - UnityEngine.XR.Interaction.Toolkit.LocomotionSystem
     - UnityEngine.XR.Interaction.Toolkit.XRInteractionManager
     - UnityEngine.XR.Interaction.Toolkit.XRInteractorLineVisual
     - UnityEngine.XR.Interaction.Toolkit.XRRayInteractor
@@ -85,6 +88,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1946}
     - Class: 114
+      Script: {instanceID: 3478}
+    - Class: 114
       Script: {instanceID: 4336}
     - Class: 114
       Script: {instanceID: 4342}
@@ -93,16 +98,22 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 4522}
     - Class: 114
+      Script: {instanceID: 4874}
+    - Class: 114
       Script: {instanceID: 6710}
     - Class: 114
       Script: {instanceID: 7364}
     - Class: 114
       Script: {instanceID: 7928}
     - Class: 114
+      Script: {instanceID: 8770}
+    - Class: 114
       Script: {instanceID: 9108}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 120
+      Script: {instanceID: 0}
+    - Class: 143
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
